@@ -19,4 +19,4 @@ def predict_class(model, img):
     pred_value = food_list[index]
     return pred_value
 
-print(predict_class(model, 'images/basic-french-omelet.jpg'))
+print(predict_class(model, 'images/basic-french-omelet.jpg'))   
